@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <form action="">
+        <div>
+            <label for=""></label><input type="text" value="MR" disabled>
+            <label for="fn">First Name: <sup class="re">*</sup> </label>
+            <input type="text" name="fname" id="fn" placeholder="Enter first Name" required>
+            <label for="ln ">Last Name: </label> 
+            <input type="text" id="ln" placeholder="Enter last name" name="lname">
+
+        </div><br>
+        <div>
+            <label for="em">Email:</label>
+            <input type="email" id="em" name="email" placeholder="Enter Email">
+        </div><br>
+        <div>
+            <label for="psw">Password:</label>
+     <input type="password" name="password" id="psw" placeholder="Enter password">
+
+    </div><br/>
+    <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dateofbirth" id="dob">
+    </div><br>
+    <div>
+        <label >Choose gender:</label>
+        <input type="radio" name="gender" id="fm"><label for="fm">Female</label>
+        <input type="radio" name="gender" id="m"><label for="m">Male</label>   
+    </div><br>
+    <div>
+        <label for="MN">Mobile Number:</label>
+        <input type="number" name="mobilenum" id="MN" placeholder="Enter mobile number" min="22" maxlength="10">
+
+    </div><br>
+    <div>
+        <label for="">Languages Known:</label>
+        <input type="checkbox" id="te" name="languages" value="telugu"><label for="te">Telugu</label>
+        <input type="checkbox" id="eng" name="languages" value="English"><label for="eng">English</label>
+        <input type="checkbox" id="hin" name="languages" value="hindi"><label for="hin">Hindi</label>
+        <input type="checkbox" id="tamil" name="languages" value="tamil"><label for="tamil">Tamil</label>
+    </div><br>
+    <div>
+        <label for="">Choose the course:</label>
+        <select name="" id="">
+            <option value="">please choose</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="Degree">Degree</option>
+            <option value="B.Ed">B.Ed</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+        </select>
+        
+    </div><br>
+    <div>
+        <label for="">Choose Subjects</label>
+        <select name="" id="">
+            <option value="">Please choose</option>
+            <optgroup label="Common">
+                <option value="Maths">Maths</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Physics">Physics</option>
+                 <option value="English">English</option>
+            </optgroup>
+            <optgroup label ="CSE">
+                <option value="Operating system">Operating system</option>
+                <option value="DBMS">DBMS</option>
+                <option value="Computer Networks">Computer Networks</option>
+                <option value="Data Structures">Data Structures</option>
+            </optgroup>
+            <optgroup label="Mech">
+                <option value="ED">Engineering Drawing</option>
+                <option value="FM">Fluid Mechanics</option>
+            </optgroup>
+            <optgroup label="EEE">
+                <option value="VLSI">VLSI</option>
+                <option value="DSP">DSP</option>
+
+                </select>
+    </div><br>
+    <div>
+    <label for="">Enter FeedBack:</label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</div><br>
+<button type="submit">submit</button>
+<input type="button" value="reset">
+    </form>
+</body>
+</html>
