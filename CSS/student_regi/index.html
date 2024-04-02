@@ -9,23 +9,27 @@
 <body>
     <h1 align="center">Student Registration Form</h1>
     <form action="">
+    <fieldset>
         <div>
             <label for=""></label><input type="text" value="MR" disabled>
             <label for="fn">First Name: <sup class="re">*</sup> </label>
-            <input type="text" name="fname" id="fn" placeholder="Enter first Name" required>
+            <input type="text" name="fname" id="fn" placeholder="Enter first Name" required title="firstname">
             <label for="ln ">Last Name: </label> 
-            <input type="text" id="ln" placeholder="Enter last name" name="lname">
+            <input type="text" id="ln" placeholder="Enter last name" name="lname" required title="lastname">
 
         </div><br>
+        <fieldset>
+            <legend>Enter Email and Password</legend>
         <div>
             <label for="em">Email:</label>
-            <input type="email" id="em" name="email" placeholder="Enter Email">
+            <input type="email" id="em" name="email" placeholder="Enter Email" pattern="[A-Za-z0-9]+@[A-Za-z]+.[A-Za-z]{15}">
         </div><br>
         <div>
             <label for="psw">Password:</label>
-     <input type="password" name="password" id="psw" placeholder="Enter password">
+            <input type="password" name="password" id="psw" placeholder="Enter password">
 
-    </div><br/>
+        </div><br/>
+    </fieldset>
     <div>
         <label for="dob">Date of Birth:</label>
         <input type="date" name="dateofbirth" id="dob">
@@ -87,11 +91,26 @@
                 </select>
     </div><br>
     <div>
-    <label for="">Enter FeedBack:</label>
-    <textarea name="" id="" cols="30" rows="10"></textarea>
-</div><br>
-<button type="submit">submit</button>
-<input type="button" value="reset">
+        <p>Please choose sports</p>
+        <input type="text" list="sports">
+        <datalist id="sports">
+            <option value="cricket"></option>
+            <option value="KhoKho"></option>
+            <option value="football"></option>
+            <option value="Kabadi"></option>
+        </datalist>
+    </div><br>
+    <div>
+        <label for="">Enter FeedBack:</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>   
+    </div><br>
+    <div>
+        <button type="submit">submit</button>
+        <input type="button" value="reset">
+    </div>
+    </fieldset> 
+    
     </form>
+   
 </body>
 </html>
