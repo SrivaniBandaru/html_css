@@ -1,0 +1,16 @@
+body{
+    /*background: rgb(red, green, blue);*/
+   /* background: linear-gradient(to right,red,blue,green,yellow);*/
+   /* background: linear-gradient(to left,red,blue,green,yellow);*/
+    /*background: linear-gradient(to top,red,blue,green,yellow);*/
+    /*background: linear-gradient(to bottom,red,blue,green,yellow);*/
+    /*By default it takes to bottom */
+    /*background: radial-gradient(orange,tomato,orange,tomato,green,orange,tomato,green,orange,tomato,green);*/
+    background: radial-gradient(white,rgb(199, 85, 165), rgb(300,20,20),rgb(130, 130, 238),
+    white,rgb(199, 85, 165), rgb(300,20,20),rgb(130, 130, 238),white,rgb(199, 85, 165), rgb(300,20,20),rgb(130, 130, 238));
+}
+p,h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 50;
+}
