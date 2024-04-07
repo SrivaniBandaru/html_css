@@ -1,0 +1,8 @@
+h1
+{
+    text-align: center;
+}
+.but:hover{
+     background-color: black;
+    color: white;
+}
