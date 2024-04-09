@@ -6,3 +6,9 @@ h1
      background-color: black;
     color: white;
 }
+p{
+    margin: 20;
+    padding-left: 10px;
+    padding-right: 200px;
+    
+}

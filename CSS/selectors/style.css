@@ -1,0 +1,103 @@
+*
+{
+    background-color: white;
+
+}
+body{
+    background-color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    color: blue;
+
+}
+div
+{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border:2px solid black;
+    margin: 10px;
+}
+#mdiv
+{
+    height: 100px;
+    width: 200px;
+}
+
+#box2
+{
+    background-color: blue;
+}
+div>p
+{
+    color:darkgreen;
+}
+div p{
+    font-style: oblique;
+}
+#pa{
+    height: 150px;
+    width: 100px;
+
+}
+.first
+{
+    background-color: red;
+}
+.first:hover
+{
+    background-color: yellowgreen;
+}
+a:active
+{
+    color:yellow;
+}
+a:visited
+{
+    color: mediumvioletred;
+}
+#in
+{
+    border-radius: 5px;
+    
+}
+input:focus
+{
+    background-color: lightsteelblue;
+}
+{
+    background-color: burlywood;
+}
+input[type="text"]
+{
+    background-color:blanchedalmond;
+}
+input[type="email"]
+{
+    background-color:blanchedalmond ;
+}
+div:empty
+{
+    background-color: aqua;
+}
+
+/* pseudo classes -They come with :: */
+.para::after
+{
+    content: "over";
+}
+.para::before
+{
+    content: "Start";
+}
+.para::first-letter
+{
+    color:aqua;
+}
+.para::first-line{
+    color: darkorange;
+
+}
+.para:hover{
+    text-decoration:underline;
+}
