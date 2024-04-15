@@ -1,5 +1,16 @@
-body{
+
  
+   
+.form{
+
+    border: 2px solid black ;
+    border-radius: 10px;
     background-color: rgb(216, 214, 214);
     color: navy;
+    text-align: left;
+    margin: auto;
+    min-height: auto;
+    max-width:fit-content;   
 }
+   
+
