@@ -1,0 +1,32 @@
+
+.s1{
+    color:cornflowerblue;
+}
+.s2{
+    color:orange;
+}
+.s3
+{
+    color:rgb(123, 5, 233);
+}
+.s4{
+    color: green;
+
+}
+.s5
+{
+    color: red;
+
+}
+.tab
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+td{
+    text-align: center;
+}
+th
+{
+    text-align: center;
+}
