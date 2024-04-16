@@ -1,0 +1,52 @@
+/*.body
+{
+    background-image: url("https://www.pcworld.com/wp-content/uploads/2024/03/Netflix-Hintergrund-1.jpg?quality=50&strip=all");
+}
+*/
+h1{
+    color: white;
+}
+.form
+{
+    background-color: black;
+    text-justify:distribute;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+   
+
+    
+}
+.sign
+{
+    color: white;
+    background-color: red;
+   
+
+}
+.first:hover
+{
+    background-color:chocolate;
+}
+
+
+
+p{
+    color: white;
+}
+.sub
+{
+    color: white;
+    background-color: gray;
+}
+.sec:hover{
+    background-color:darkslategray;
+}
+
+a{
+    color: white;
+}
+div
+{
+    color: white;
+}

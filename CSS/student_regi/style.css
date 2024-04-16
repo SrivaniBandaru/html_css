@@ -1,16 +1,26 @@
-
- 
+.total
+{
+   
+    display:flex;
+   justify-content: center;
+   
+   
+}
+  
    
 .form{
-
-    border: 2px solid black ;
-    border-radius: 10px;
+    
     background-color: rgb(216, 214, 214);
     color: navy;
     text-align: left;
-    margin: auto;
+    border-style: solid ;
+    border-radius: 10px;
+    
+    /* margin: auto;
     min-height: auto;
-    max-width:fit-content;   
+    max-width:fit-content;    */
+   
+   
 }
    
 
