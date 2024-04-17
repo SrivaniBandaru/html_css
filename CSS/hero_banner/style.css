@@ -1,0 +1,52 @@
+.first
+{
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    color: white;
+    margin: 80px;
+}
+p{
+    padding: 10px;
+}
+.button:hover
+{
+  text-align: center;
+  background-color: brown;
+  color: white;
+ 
+}
+
+h1{
+    /* text-shadow: 3px 5px var(--secondary); */
+    text-shadow:2px 2px deepskyblue;
+    text-align: center;
+    
+}
+#body
+{
+    background-image: url(https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+  /* background-size:auto; */
+
+   
+    
+    
+
+   
+     
+    
+    
+  
+    
+  
+   
+
+  
+   
+    
+}
