@@ -2,7 +2,136 @@
 {
     background-image: url("https://www.pcworld.com/wp-content/uploads/2024/03/Netflix-Hintergrund-1.jpg?quality=50&strip=all");
 }
+.font
+{
+    color: white !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* justify-content: left; */
+}
 .firstdiv
+{
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 8%) ;
+    /* position: absolute;*/
+    width: 350px;
+    padding: 20px 60px 100px ;
+    padding-top: 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+ 
+    
+   
+  
+    
+    /* 
+    top: 50%;
+    left: 50%; */
+   
+    /* width: 450px;  */  
+   
+}
+.form
+{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    text-align: center;
+    
+  
+}
+
+.button
+{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    
+    font-size: 16px;
+   
+
+}
+.button:hover
+{
+    background-color:brown;
+    color:white;
+
+}
+
+.ancor
+{
+    color: white;
+    text-decoration:none;
+   
+ 
+}
+.ancor:hover
+{
+    color:gainsboro;
+    text-decoration: underline;
+}
+.bsec
+{   
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+   
+
+}
+.bsec:hover
+{
+    background-color: hsl(0, 0%, 12%);
+}
+.checkbox
+{
+   justify-content: left;
+}
+.form input
+{
+   width: 100%;
+   height: 50px;
+   border-radius: 5px;
+   background-color:hsl(0, 0%, 12%);
+   color:white;
+}
+
+input::placeholder
+{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .firstdiv
 {
     display:flex;
     justify-content: center;
@@ -31,7 +160,7 @@ h1{
     color: white;
     background-color: red;
  
-    /* padding: 20px 50px; */
+  
 	border-radius: 10px;
    
 
@@ -64,4 +193,4 @@ a{
 div
 {
     color: white;
-}
+} */
