@@ -1,6 +1,11 @@
 .body
 {
     background-image: url("https://www.pcworld.com/wp-content/uploads/2024/03/Netflix-Hintergrund-1.jpg?quality=50&strip=all");
+    /*  This is best choice of styling
+    display: flex;
+    justify-content:center;
+    align-items:center; */
+  
 }
 .font
 {
@@ -13,6 +18,8 @@
     color:hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 8%) ;
     /* position: absolute;*/
+    
+   
     width: 350px;
     padding: 20px 60px 100px ;
     padding-top: 2px;
