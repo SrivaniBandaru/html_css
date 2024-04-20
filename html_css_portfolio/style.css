@@ -55,4 +55,48 @@ p
     font-size: 24px;
 
 }
+.img
+{
+    height:250px;
+}
+/* buttons start*/
+button
+{
+    background-color: var(--primary);
+    color: white;
+    padding: 20px 50px ;
+    border-radius: 50px;
+    transition: all 1s ease;
+
+}
+button:hover
+{
+    background-color: var(--secondary);
+    color: black;
+}
+.buttons
+{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.buttons:nth-child(2)
+{
+    background-color: white;
+}
+/* buttond end*/
+
+/* banners start*/
+#banner
+{
+    display: flex;
+    gap: 30px;
+    max-width: 1400px;
+    overflow-x: hidden;
+
+
+}
+#banner p{
+    line-height: 1.5;
+}
 
