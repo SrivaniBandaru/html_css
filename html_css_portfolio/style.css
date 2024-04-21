@@ -3,13 +3,15 @@
 {
     --primary:#fb4d62;
     --secondary: orange;
-    --font-size: 24px;
+    --third:  rgb(22, 129, 216);
+    --font-size: 26px;
 
 }
 body{
     box-sizing: border-box;
     font-family: Raleway, sans-serif;
     width: 100vw;
+    /* color: rgb(22, 129, 216); */
 }
 /* header css starts here*/
 header
@@ -52,7 +54,8 @@ section
 }
 p 
 {
-    font-size: 24px;
+    font-size: var(--font-size);
+    text-align:justify;
 
 }
 .img
@@ -99,4 +102,94 @@ button:hover
 #banner p{
     line-height: 1.5;
 }
+
+/* heading details*/
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 5px var(--secondary);
+}
+/* Project starts*/
+#projects
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+
+
+/* Cards*/
+.card img
+{
+    width: 100%;
+}
+.card{
+   box-shadow: 5px 5px  black;
+   border-radius: 15px;
+   padding: 20px;
+   transition: all 1s ease;
+  
+  
+}
+.card:hover{
+    box-shadow: 7px 7px var(--third);
+    scale: 1.05;
+}
+
+/* Cotact start*/
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact
+{
+    box-shadow: 5px 5px black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    
+
+}
+.contact input, .contact select
+{
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+}
+input::placeholder
+{
+    font-size: 16px;
+}
+/*Contact ends*/
+
+/*Footer start*/
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    
+
+}
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
 
