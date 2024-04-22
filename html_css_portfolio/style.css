@@ -5,9 +5,10 @@
     --secondary: orange;
     --third:  rgb(22, 129, 216);
     --font-size: 26px;
+    scroll-behavior: smooth;
 
 }
-body{
+body{ 
     box-sizing: border-box;
     font-family: Raleway, sans-serif;
     width: 100vw;
@@ -233,13 +234,13 @@ footer
    
     
 }    
-}
+
 @keyframes basic {
 	100% {
 		
 			transform: translateX(-1400px);
 	}
-
+}
 
 
 
