@@ -112,6 +112,23 @@ h1{
     text-align: center;
     text-shadow: 2px 5px var(--secondary);
 }
+/* About Start*/
+ #about{
+    text-align: center;
+    
+}
+/*
+ h2{
+    font-size: 46px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-shadow: 3px 5px var(--secondary);
+    text-align: center;
+}
+#about p{
+    text-align: center;
+} */
+
 /* Project starts*/
 #projects
 {
