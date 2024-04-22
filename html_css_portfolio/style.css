@@ -180,6 +180,47 @@ footer
 
 }
 /**/
+@media (max-width: 768px) {
+	header {
+		flex-direction: column;
+		align-items: center;
+	}
+    #banner
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #banner .left{
+        width: 100%;
+    }
+    #banner img{
+     width:100%;
+     
+    }
+    .buttons{
+        justify-content: center;
+    }
+    #projects{
+        grid-template-columns: repeat(1,auto);
+    }
+}
+@media (max-width: 480px) {
+	header{
+		position: static;
+	}
+	section{
+		padding: 0;
+	}
+	header ul{
+		flex-direction: column;
+
+	};
+}
+@keyframes basic {
+	100% {
+		
+			transform: translateX(-1400px);
+	}
 
 
 
