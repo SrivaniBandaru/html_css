@@ -11,3 +11,5 @@ console.log(str2)
 var strr = "Javascript"
 console.log(strr.toUpperCase())
 /* write a js code to explore all string methods */
+alert('are you sure')
+confirm('are you sure')
