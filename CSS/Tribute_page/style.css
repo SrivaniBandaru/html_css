@@ -40,3 +40,8 @@ p{
     font-size: 19px;
     
 }
+.total
+{
+    display: flex;
+    flex-direction: column;
+}
