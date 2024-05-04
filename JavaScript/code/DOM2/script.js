@@ -19,3 +19,11 @@ function update ()
         }
 }
 /* wap to take an input value- string and reverse it and print */ 
+
+
+
+/*d=2.5697
+console.log(typeof(d))
+console.log(d.toFixed(2))
+console.log(d.toPrecision(3))
+console.log(d.toString(d))*/
