@@ -20,27 +20,32 @@
 //         console.log(rev1);
 //         len--;
 //     }
-//     console.log(rev1);
-var arr=[5,2,3,4]  
-
-//for loop with (for of) to print array elements
-// for(var a of arr)
-//     {
-//         console.log(a)
-//     } 
+//     console.log(rev1)
 
 
-// for(var i=0;i<arr.length;i++)
-//     {
-//         console.log(arr[i])
-//     }
 
-//for with (for in) used for objects to print index
-for(var a in arr)
+
+
+
+
+
+//Program to count vowels and consonents
+var a = prompt('enter a string')
+str1=a.toLowerCase()
+// n=strl.length
+var vc=0;
+var cc=0;
+for(var i of str1)
     {
-        console.log(a,arr[a])
-    }    
-
-
-
-    
+        if(i>='a' && i<='z' && !'aeiou'.includes(i))
+            {
+                cc++;
+            }
+        else{
+            vc++;
+        }    
+    }
+console.log('vowels:'+vc,'consonests:'+cc)
+var cost=500;    
+var str2= `the cost of item is ${cost}`
+console.log(str2)
