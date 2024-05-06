@@ -11,7 +11,7 @@ function changeMode ()
         btn.textContent="🌛"
         }
 }
-const x= document.getElementById('inp')
+let x= document.getElementById('inp')
 function myFun ()
 {
     if (x.type == "password")
@@ -25,4 +25,6 @@ function myFun ()
           document.getElementById("btn2").textContent = "show"
         
     }
+
+
 }
