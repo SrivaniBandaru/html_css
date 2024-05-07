@@ -1,28 +1,26 @@
-let btnText= document.getElementById('btn2')
+let input=document.getElementById('inp')
+function myFun()
+{
+    if(input.type=='password')
+        {
+            input.type='text';
+            document.getElementById('btn').textContent= "👁";
+
+        }
+        else{
+            input.type="password";
+            document.getElementById('btn').textContent= "hide"
+        }
+}
+let btnText=document.getElementById('btn2')
 function changeMode()
 {
     document.body.classList.toggle('dark')
-    if (btnText.textContent == "🌛")
-    {
-        btn.textContent = "☀️"
+    if(btnText.textContent=='🌞'){
+        btnText.textContent='🌙';
+
     }
-    else
-    {
-        btn.textContent="🌛"
-        }
-}
-let x=document.getElementById('input')
-function myfun()
-{
-    if(x.type=="password")
-        {
-            x.type="text";
-            document.getElementById('btn').textContent="hide";
-
-        }
     else{
-        x.type="password";
-        document.getElementById('btn').textContent="show";
-    }    
-
+        btnText.textContent="🌞"
+    }
 }
