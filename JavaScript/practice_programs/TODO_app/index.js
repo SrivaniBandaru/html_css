@@ -20,13 +20,3 @@ function todo ()
     inp.value = ""
     inp2.value=""
 }
-
-
-// let inp=document.getElementById('inp')
-// let inp2=document.getElementById('inp2')
-// let btn=document.getElementById('btn')
-// const mainDiv=document.getElementById('data')
-// function todo()
-// {
-
-// }
