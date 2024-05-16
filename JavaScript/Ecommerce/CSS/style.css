@@ -1,0 +1,22 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2em;
+}
+.product{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.product:hover{
+    box-shadow: 5px 5px 5px 5px var(--primary);
+}
+.product img{
+
+    height: 200px;
+    width: 300px;
+}

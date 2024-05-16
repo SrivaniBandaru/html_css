@@ -1,0 +1,1 @@
+https://api.sampleapis.com/cartoons/cartoons2D

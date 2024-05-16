@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 18px;
+    --primary: orange;
+}
+header{
+    position: sticky;
+    
+    background-color: black;
+    color: white;
+    font-size: 2px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px 30px;
+
+}
+header span{
+    color: var(--primary);
+}
+button{
+    height: 40px;
+    width: max-content;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: var(--primary);
+    color: white;
+}
